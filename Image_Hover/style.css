@@ -1,0 +1,21 @@
+body {
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.image-gallery img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.image-gallery img:hover {
+    transform: scale(1.2);
+}
